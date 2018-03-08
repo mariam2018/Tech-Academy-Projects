@@ -38,18 +38,18 @@ namespace CS_ASP_10
 
         protected void multiplyButton_Click(object sender, EventArgs e)
         {
-            int firstValue = int.Parse(firstValueTextBox.Text);
-            int secondValue = int.Parse(secondValueTextBox.Text);
-            int c = firstValue * secondValue;
-            resultLabel.Text = c.ToString();
-        }
+            int firstValue = int.Parse(firstValueTextBox
 
         protected void divideButton_Click(object sender, EventArgs e)
         {
-            int firstValue = int.Parse(firstValueTextBox.Text);
+            int firstValue = int.Parse(firstVa.Text);
+            int secondValue = int.Parse(secondValueTextBox.Text);
+            int c = firstValue * secondValue;
+            resultLabel.Text = c.ToString();
+        }            resultLabel.Text = d.ToString();
+lueTextBox.Text);
             int secondValue = int.Parse(secondValueTextBox.Text);
             int d = firstValue / secondValue;
-            resultLabel.Text = d.ToString();
         }
     }
 }
